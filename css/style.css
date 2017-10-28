@@ -1,0 +1,120 @@
+/*reset*/
+html, body, ul, ol, li, form
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #7DB701;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	width: 1200px;
+	max-height: 680px;
+	margin: auto;
+	background: #ffffff;
+	display: flex;
+}
+
+.my-image {
+	width: 300px;
+	position: relative;
+}
+
+.my-image .my-details {
+	position: absolute;
+	bottom: 80px;
+	padding-left: 20px;
+	color: #ffffff;
+}
+
+.my-image .my-details span {
+	color: #7DB701;
+}
+
+.my-info, .my-profile, .gallery, .contact {
+	width: 900px;
+}
+
+nav {
+	height: 50px;
+	margin: auto 0;
+	background: #F9F9F9; 
+}
+
+nav ul li {
+	padding-left: 30px;
+	line-height: 50px;
+}
+
+nav ul li {
+	display: inline;
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+.inner-container {	
+	width: 850px;
+	margin: 30px auto;
+}
+
+.card {
+	background: #F6F6F6;
+	border-left: 5px solid #7DB701;
+	padding:8px 15px;
+	margin-bottom: 30px;
+}
+
+.my-info .hobbies {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.my-info .contact-details {
+	margin-top: 30px;
+}
+
+.my-info .contact-details table {
+	padding: 10px;
+	width: 100%;
+}
+
+
+/*gallery page*/
+.gallery img {
+	width: 250px;
+	height: 200px;
+}
+
+.image-row {
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+
+.image-row div p {
+ 	text-align: center;
+}
+
+/*contact page*/
+.contact-form form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form form input {
+	margin-bottom: 15px; 
+	padding: 5px;
+}
+
+.contact-form form input[type=submit] {
+	margin-top: 15px; 
+	width: 100px;
+}
